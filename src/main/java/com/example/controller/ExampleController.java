@@ -24,6 +24,7 @@ public class ExampleController {
     })
     public String clearAll(Model model) throws Exception {
         model.addAttribute("title", "Home");
+        model.addAttribute("imgPath", "image.jpg");
         return "index";// Return index html with title Home
     }
 
